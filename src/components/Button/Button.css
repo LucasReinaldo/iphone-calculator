@@ -1,0 +1,28 @@
+.Button {
+    background-color: #333;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.Button.zero {
+    width: 160px;
+    grid-column: 1 / span 2; /* this means to set the element on the first column, and span two columns */
+    border-radius: 57.5px;
+    justify-content: flex-start;
+    position: relative;
+    padding-left: 27px;
+}
+
+.Button.function {
+    color: black;
+    background-color: #a5a5a5;
+}
+
+.Button.operator {
+    background-color: #f1a33c;
+}
