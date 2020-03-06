@@ -6,6 +6,10 @@ import commafy from './utils/commafy';
 import './App.css';
 import './global.css';
 
+// TODO: 1. solve the commafy value, when typed a number and do some operator, when we click on '=',
+// and show total, if yout type again, you will be typing directly on display.
+// TODO: 2. when typed an operator it shows '0', solve to keep the value on display then show total on display.
+// TODO: 3. adjust useEffect to keep updating the hours.
 
 const App = () => {
   const [ time, setTime ] = useState(new Date());
